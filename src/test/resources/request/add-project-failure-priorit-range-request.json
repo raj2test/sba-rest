@@ -1,0 +1,10 @@
+{
+    "project": "project2",
+    "startDate": "2019-05-05",
+    "endDate": "2019-05-31",
+    "priority": 40,
+    "user": {
+        "userId": 1
+      
+    }
+}

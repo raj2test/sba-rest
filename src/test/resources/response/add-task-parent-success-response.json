@@ -1,0 +1,24 @@
+{
+    "taskId": 1,
+    "task": "Development",
+    "project": {
+        "projectId": 1,
+        "project": "Destination",
+        "startDate": "2019-05-05",
+        "endDate": "2019-05-31",
+        "priority": 20,
+        "user": {
+            "userId": 1,
+            "firstName": "Raj",
+            "lastName": "J",
+            "employeeId": "1"
+        }
+    },
+    "user": {
+        "userId": 1,
+        "firstName": "Raj",
+        "lastName": "J",
+        "employeeId": "1"
+    },
+    "parentFlag": true
+}

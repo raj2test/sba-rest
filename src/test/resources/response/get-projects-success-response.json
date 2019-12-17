@@ -1,0 +1,67 @@
+[
+    {
+        "projectId": 1,
+        "project": "Destination",
+        "startDate": "2019-05-05",
+        "endDate": "2019-05-31",
+        "priority": 20,
+        "status": "NEW",
+        "tasks": [
+            {
+                "taskId": 1,
+                "task": "Implementation",
+                "user": {
+                    "userId": 1,
+                    "firstName": "Raj",
+                    "lastName": "T",
+                    "employeeId": "1"
+                },
+                "parentFlag": true
+            },
+            {
+                "taskId": 2,
+                "task": "Development",
+                "startDate": "2019-05-01",
+                "endDate": "2019-05-31",
+                "priority": 30,
+                "status": "NOT STARTED",
+                "parentTask": {
+                    "parentId": 1,
+                    "parentTask": "Implementation"
+                },
+                "user": {
+                    "userId": 2,
+                    "firstName": "Anand",
+                    "lastName": "T",
+                    "employeeId": "2"
+                },
+                "parentFlag": false
+            },
+            {
+                "taskId": 3,
+                "task": "Testing",
+                "startDate": "2019-05-01",
+                "endDate": "2019-05-31",
+                "priority": 30,
+                "status": "NOT STARTED",
+                "parentTask": {
+                    "parentId": 1,
+                    "parentTask": "Implementation"
+                },
+                "user": {
+                    "userId": 3,
+                    "firstName": "Mark",
+                    "lastName": "AT",
+                    "employeeId": "3"
+                },
+                "parentFlag": false
+            }
+        ],
+        "user": {
+            "userId": 1,
+            "firstName": "Raj",
+            "lastName": "T",
+            "employeeId": "1"
+        }
+    }
+]

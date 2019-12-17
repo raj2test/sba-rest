@@ -1,0 +1,31 @@
+{
+    "taskId": 101,
+    "task": "Implementation",
+    "startDate": "2019-05-09",
+    "endDate": "2019-05-15",
+    "priority": 30,
+    "status": "NOT STARTED",
+    "project": {
+        "projectId": 1,
+        "project": "Destination",
+        "startDate": "2019-05-05",
+        "endDate": "2019-05-31",
+        "priority": 20,
+        "user": {
+            "userId": 1,
+            "firstName": "Raj",
+            "lastName": "J",
+            "employeeId": "1"
+        }
+    },
+    "parentTask": {
+        "parentId": 1,
+        "parentTask": "Testing"
+    },
+    "user": {
+        "userId": 2,
+        "firstName": "Vinod",
+        "lastName": "G",
+        "employeeId": "2"
+    }
+}
